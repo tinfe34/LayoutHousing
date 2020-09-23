@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--[if lt IE 9]>
+        <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+
+    <!-- Link CSS -->
+    <!-- owlCarousel Css -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- Modal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!-- LightSpeedBox -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/AlexEmashev/lsb-lightbox/master/dist/lsb.css">
+    <!-- Css main -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 1.HEADER -->
+    <header class="header">
+        <div class="logo">
+            <a>hous</a>
+            <button onclick="myFunction()"><i class="fa fa-bars"></i></button>
+        </div>
+        <nav id="toggle">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Agents</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 2.CAROUSEL -->
+    <section class="carousel">
+        <div class="button"><a href="#" class="carousel__pre-button"><img src="./img/left-arrow.png" alt=""></a></div>
+        <div class="carousel__content owl-carousel owl-theme">
+            <div class="content__item">
+                <img src="./img/b1.jpg" alt="">
+                <div class="item__title">
+                    <h2>Lorem ipsum dolor</h2>
+                    <p>Lorem ipsum dolor sit, consectetur adiping elit.</p>
+                </div>
+            </div>
+            <div class="content__item">
+                <img src="./img/b2.jpg" alt="">
+                <div class="item__title">
+                    <h2>DOLOR SIT HATANT MORBI</h2>
+                    <p>Quis autem vel eum iure reprehenderit quivol.</p>
+                </div>
+            </div>
+            <div class="content__item">
+                <img src="./img/b3.jpg" alt="">
+                <div class="item__title">
+                    <h2>QUIS AUTEM VE EUM IURE</h2>
+                    <p>Excepteur sint ocecat cupid proident, deserunt.</p>
+                </div>
+            </div>
+            <div class="content__item">
+                <img src="./img/b4.jpg" alt="">
+                <div class="item__title">
+                    <h2>VOLUPTATE VELIT ESSE</h2>
+                    <p>Quis autem velreprehenderit qui ea.eum iure</p>
+                </div>
+            </div>
+        </div>
+        <div class="button"><a href="#" class="carousel__next-button"><img src="./img/right-arrow.png" alt=""></a></div>
+    </section>
+    <!-- 3.ABOUT -->
+    <section class="about">
+        <h3 class="about__title">About</h3>
+        <div class="about__content">
+            <div class="service__item">
+                <div class="item__icon">
+                    <i class="fa fa-home"></i>
+                </div>
+                <div class="item__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                </div>
+            </div>
+            <div class="service__item">
+                <div class="item__icon">
+                    <i class="fa fa-key"></i>
+                </div>
+                <div class="item__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                </div>
+            </div>
+            <div class="service__item">
+                <div class="item__icon">
+                    <i class="fa fa-money-bill-alt"></i>
+                </div>
+                <div class="item__p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 4.STATS -->
+    <section class="stats">
+        <h2>Stats</h2>
+        <div class="stats__content">
+            <div class="content__item">
+                <div class="counter">
+                    <p>3500</p>
+                </div>
+                <div class="title">
+                    <p>Plans</p>
+                </div>
+            </div>
+            <div class="content__item">
+                <div class="counter">
+                    <p>650</p>
+                </div>
+                <div class="title">
+                    <p>clients</p>
+                </div>
+
+            </div>
+            <div class="content__item">
+                <div class="counter">
+                    <p>1021</p>
+                </div>
+                <div class="title">
+                    <p>projects</p>
+                </div>
+            </div>
+            <div class="content__item">
+                <div class="counter">
+                    <p>1010</p>
+                </div>
+                <div class="title">
+                    <p>Likes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 5.BLOG -->
+    <section class="blog">
+        <h2>Blog</h2>
+        <div class="blog__content">
+            <div class="content__item">
+                <img src="./img/g1.jpg" alt="">
+                <div class="item__detail">
+
+                    <h5>Lorem Ipsum Passage,</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nemo fugiat cumque animi
+                        fugit
+                        sit nulla nam eum ex aperiam?</p>
+                    <p> <a href="#ex1" rel="modal:open">Read more..</a>
+                    </p>
+                </div>
+            </div>
+            <div class="content__item">
+                <img src="./img/g1.jpg" alt="">
+                <div class="item__detail">
+                    <h5>Lorem Ipsum Passage,</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nemo fugiat cumque animi
+                        fugit
+                        sit nulla nam eum ex aperiam?</p>
+                    <p> <a href="#ex1" rel="modal:open">Read more..</a>
+                    </p>
+                </div>
+            </div>
+            <div class="content__item">
+                <img src="./img/g1.jpg" alt="">
+                <div class="item__detail">
+                    <h5>Lorem Ipsum Passage,</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nemo fugiat cumque animi
+                        fugit
+                        sit nulla nam eum ex aperiam?</p>
+                    <p> <a href="#ex1" rel="modal:open">Read more..</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    <!-- Modal -->
+
+    <div id="ex1" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Housing</h5>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/img2.jpg" alt="">
+                    <div class="body__text">
+                        <p>
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
+                            reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
+                            illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- 6.VIDEO -->
+    <section class="video">
+        <div class="video__content">
+            <img src="./img/video.jpg" alt="">
+            <div class="content__icon">
+                <a href="#ex2" rel="modal:open"><i class="fa fa-play-circle"></i></a>
+            </div>
+        </div>
+        <div class="video__title">
+            <h4>Get More..</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut minim
+                veniam, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+                nulla pariatur.</p>
+            <div class="text__button">
+                <a href="#ex1" rel="modal:open">Read more..</a>
+            </div>
+        </div>
+        <div id="ex2" class="modal">
+            <iframe src="https://player.vimeo.com/video/106770833" width="100%" height="500px"></iframe>
+
+        </div>
+
+    </section>
+    <!-- 7.GALLERY -->
+    <section class="gallery">
+        <h2>Portfolio</h2>
+        <div class="portfolio__content">
+            <div class="content__item">
+
+                <a href="./img/img1.jpg" class="lsb-preview">
+                    <img src="./img/img1.jpg" alt="Image Title">
+
+                    <div class="detail__title">
+                        <div class="title__text">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="content__item">
+
+                <a href="./img/img2.jpg" class="lsb-preview">
+                    <img src="./img/img2.jpg" alt="Image Title">
+
+                    <div class="detail__title">
+                        <div class="title__text">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="content__item">
+
+                <a href="./img/img3.jpg" class="lsb-preview">
+                    <img src="./img/img3.jpg" alt="Image Title">
+
+                    <div class="detail__title">
+                        <div class="title__text">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="content__item">
+
+                <a href="./img/img4.jpg" class="lsb-preview">
+                    <img src="./img/img4.jpg" alt="Image Title">
+
+                    <div class="detail__title">
+                        <div class="title__text">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="content__item">
+
+                <a href="./img/img5.jpg" class="lsb-preview">
+                    <img src="./img/img5.jpg" alt="Image Title">
+
+                    <div class="detail__title">
+                        <div class="title__text">
+                            <h3>GALLERY</h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="content__item">
+                <img src="./img/img6.jpg" alt="">
+                <div class="detail__title">
+                    <div class="title__text">
+                        <h3>GALLERY</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- 8.TEAM -->
+    <section class="pimg1">
+
+
+    </section>
+
+    <!-- 9.CONTACT -->
+    <section class="contact"></section>
+    <!-- 10.FOOTER -->
+    <footer></footer>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.countup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="https://cdn.rawgit.com/AlexEmashev/lsb-lightbox/master/dist/lsb.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            animateOut: 'fadeOut',
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+        $('.owl-carousel').trigger('refresh.owl.carousel');
+
+        $('.carousel .carousel__next-button').click(function () {
+            $('.owl-carousel').trigger('next.owl.carousel');
+        });
+
+        $('.carousel .carousel__pre-button').click(function () {
+            $('.owl-carousel').trigger('prev.owl.carousel');
+        });
+
+
+    </script>
+
+    <!-- scritpt for counting number -->
+    <script>
+        $('.counter').countUp({
+
+            'time': 2000,
+
+            'delay': 10
+
+        });
+
+
+        $(window).on('load', function () {
+            $.fn.lightspeedBox();
+        });
+
+       function myFunction(){
+        var toggle= document.getElementById("toggle").style.display;
+        console.log(toggle)
+        if(toggle==="none"){
+            document.getElementById("toggle").style.display="block";
+            
+        }
+        else{
+            document.getElementById("toggle").style.display="none";
+        }
+        }
+    </script>
+
+</body>
+
+</html>
